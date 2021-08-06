@@ -1,0 +1,11 @@
+apiversion: v1
+kind: PersistentVolumeClain
+metadata: 
+  name: pvc-1
+spec:
+  accessMode:
+    - ReadWriteOnce
+    resources:
+      requests:
+        storage: 10Gi
+
